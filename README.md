@@ -1,4 +1,4 @@
-# Ballerina EDI Tool Guide
+# Ballerina EDI Tool Guide - PREREQUSITES
 
 ## 1. Installation
 
@@ -43,4 +43,16 @@ Once you have the schema of the EDI structure, generate the Ballerina records us
 bal edi codegen -i resources/schema.json -o modules/orders/records.bal
 ```
 
+# Create a Package and push to Ballerina Package Repo
+
+ cd edifact4qa
+ bal pack
+ bal push --repository local
+
+
 This command takes the schema file as input and generates the corresponding Ballerina record definitions in the specified output file.
+
+
+Runnung the service in WSO2 Integrator:BI
+
+Pull created edficat package bal pull madushanka/edifact4qa:0.1.0 --repository local
