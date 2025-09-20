@@ -6,7 +6,6 @@ Execute the following command to pull the EDI tool:
 
 ```bash
 bal tool pull edi
-ol pull edi
 ```
 
 ## 2. Tool Capabilities
