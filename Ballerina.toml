@@ -1,0 +1,12 @@
+[package]
+org = "madushanka"
+name = "edifact_demo"
+version = "0.1.0"
+title = "edifact_demo"
+
+
+[[dependency]]
+org = "madushanka"
+name = "edifact4qa"
+version = "0.1.0"
+repository = "local"
