@@ -58,12 +58,18 @@ bal edi codegen -i resources/coparn_schema.json -o modules/coparn/records.bal
 ## 6. Lib Generation
 
 You can also generate a reusable package library:
+
 ```bash
 bal edi libgen -p myorg/cargo -i resources/schemas -o generated_packages/cargo
 ```
 
 
 # EXAMPLE EDI Conversions
+
+Run the RESE API
+```bash
+bal run
+```
 
 ## EDI to JSON
 
