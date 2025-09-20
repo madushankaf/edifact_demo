@@ -34,13 +34,13 @@ You can generate schemas automatically without writing them from scratch. For ex
 bal edi convertEdifactSchema -v d03a -t COPARN -o output/coparn_schema.json
 ```
 
-Other Examples
+### Other Examples
 
-# Generate COPINO (Container Release Order) schema
+#### Generate COPINO (Container Release Order) schema
 ```bash
 bal edi codegen -i resources/coparn_schema.json -o modules/coparn/records.bal
 ```
-# Generate IFTMBC (Booking Confirmation) schema
+##### Generate IFTMBC (Booking Confirmation) schema
 
 ```bash
 bal edi convertEdifactSchema -v d03a -t IFTMBC -o output/iftmbc_schema.json
