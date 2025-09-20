@@ -66,7 +66,7 @@ bal edi libgen -p myorg/cargo -i resources/schemas -o generated_packages/cargo
 
 # EXAMPLE EDI Conversions
 
-Run the RESE API
+Run the REST API
 ```bash
 bal run
 ```
